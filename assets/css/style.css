@@ -1600,7 +1600,7 @@ xkeyframes
 
 /*For Footer Section*/
 .footer{
-
+    margin-top: 150px;
     color:#000;
 }
 .footer-wrapper{
@@ -1671,4 +1671,133 @@ xkeyframes
 #home > canvas {
     position: fixed;
     top: 0;
+}
+/* */
+section.container {
+    margin-top: 5rem;
+}
+.coin-main {
+    padding-left: 2rem;
+}
+.title {
+    font-weight: bold;
+    /* margin-bottom: 1.9rem; */
+}
+
+.comp-cointop img {
+    width: 78px;
+    height: auto;
+}
+.item-coin {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin: 1.3rem 0rem 1.3rem 2rem;
+    padding: .5rem 0;
+}
+.item-coin:hover {
+    background: rgba(0, 0, 0, .1);
+    
+}
+.item-coin > div {
+    display: inline-block;
+}
+.item-coin > .avatar {
+    width: 32px;
+    height: auto;
+    max-height: 60px;
+}
+.item-coin > .title {
+    margin-left: 13px;
+}
+.item-coin p {
+    font-weight: 400;
+    font-size: 20px;
+}
+.comp-coindesc {
+    margin-top: 60px;
+}
+.padding {
+    padding: .5rem 1.7rem;
+}
+.comp-cointop {
+    text-align: left;
+    margin-top: 90px;
+}
+.comp-cointop.left{
+    
+}
+.comp-cointop .left{
+    display: inline-block;
+}
+.comp-cointop .left > img{
+    width: 120px;
+    margin-top: -70px;
+}
+
+.comp-cointop .right{
+    text-align: left;
+    display: inline-block;
+    width: 70%;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.comp-cointop .right h2{
+    font-weight: 500;
+    font-size:24px;
+    text-transform:uppercase;
+    color:#222222;
+    margin: 0;
+}
+.comp-cointop p{
+    font-size:18px;
+    color:#777777;
+}
+.ccc-widget.ccc-chart {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+}
+
+.coin-person{
+
+    padding:40px 15px;
+    text-align: center;
+    transition:.3s ease-in-out;
+    -moz-transition:.3s ease-in-out;
+    -webkit-transition:.3s ease-in-out;
+}
+.coin-person:hover{
+    background:#5862a2;
+    color:#fff;
+}
+.coin-person:hover i {
+    color:#fff;
+}
+.coin-person:hover h4 {
+    color:#fff;
+}
+.coin-person:hover p {
+    color:#fff;
+}
+
+.coin-person i{
+    font-size:60px;
+    color:#5862a2;
+    margin-bottom: 20px;
+}
+.coin-person .separator {
+    margin: .8rem auto;
+}
+.coin-person h4{
+    font-size:16px;
+    color:#000;
+    text-transform:uppercase;
+    font-weight:600;
+    letter-spacing:1px;
+    margin-top:15px;
+}
+.coin-person p{
+    font-size:12px;
+    color:#777777;
 }
